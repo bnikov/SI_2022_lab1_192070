@@ -1,0 +1,25 @@
+1.  git clone https://github.com/bnikov/SI_2022_lab1_192070.git
+2.  git add shopping_list.txt
+3.  git commit -m "Add 5 items to the shopping list"
+4.  git push origin master
+5.  git add shopping_list.txt
+6.  git commit -m "Add quantities to the items."
+7.  git push origin master
+8.  git branch branch1
+9.  git branch branch2
+10. git push -u origin branch1
+11. git push -u origin branch2
+12. git checkout branch1
+13. git add shopping_list.txt
+14. git commit -m "Change quantity of item #5"
+15. git push
+15. git checkout master
+16. git add shopping_list.txt
+17. git commit -m "Chenge quantity of item #2"
+18. git push origin master
+19. git checkout branch2
+20. git add shopping_list
+21. git commit -m "Modify item #4"
+22. git push
+23. git merge branch1
+24. git merge branch2
